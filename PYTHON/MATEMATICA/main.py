@@ -1,7 +1,7 @@
 from matematica import Matematica
 
 def main():
-    teste = Matematica(3)
-    print(teste.fatorial())
+    teste = Matematica(2,3)
+    print(teste.potencia())
 
 main()

@@ -13,7 +13,7 @@ class Matematica:
     def quadrado(self):
         return math.sqrt(self.numero1)
     
-    def coseno(self):
+    def cosseno(self):
         return math.cos(self.numero1)
     
     def seno(self):
