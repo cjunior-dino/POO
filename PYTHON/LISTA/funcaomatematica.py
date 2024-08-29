@@ -1,6 +1,6 @@
 import math
 
-class matematica:
+class Matematica:
     def __init__(self, p1, p2):
         self.p1 = p1
         self.p2 = p2
@@ -27,4 +27,7 @@ class matematica:
         return math.pow(self.p1, self.p2)
 
     def logaritimo(self):
-        return math.log(self.p1)
+        if self.p1 <= 0 or self.p2 <= 2:
+            return "O logaritmando tem que ser maior ou igual a 1 e a base não pode ser menor ou igual a 1"
+        else:
+            return math.log(self.p1, self.p2)
