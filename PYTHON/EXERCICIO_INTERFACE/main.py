@@ -7,5 +7,5 @@ def usar_interface(obj: interface):
     print(obj.boleano(False))
     print(obj.caractere("True"))
 
-obj = Tipo()
+obj = Tipo() 
 usar_interface(obj)
