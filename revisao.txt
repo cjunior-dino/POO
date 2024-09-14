@@ -1,0 +1,31 @@
+1 o que é orientação a objeto ?
+é um modelo/paradigma de projeto e programação de software baseado na abstração digital do mundo real,
+
+
+2 o que é um objeto ?
+é uma instância de uma classe, ou seja, um elemento que representa uma entidade do mundo real.
+
+
+3 o que é uma instancia de classe ?
+um objeto cujo comportamento e estado são definidos pela classe
+
+
+4 o QUE É herança ?
+é um princípio de orientação a objetos, que permite que classes compartilhem atributos e métodos
+
+
+5 o que é polimorfismo
+
+6 O que é encapsulamento ?
+
+7 o que é um metodo ?
+
+8 o que são os atributos de uma classe ?
+
+9 o que metodos publico ?
+
+10 o que são atributos publicos ?
+
+11 o que são as interfaces?
+
+12 quando devemos utilizar interfaces ?
