@@ -15,17 +15,48 @@ um objeto cujo comportamento e estado são definidos pela classe
 
 
 5 o que é polimorfismo
+é a capacidade de um objeto assumir diferentes formas. Mais especificamente, refere-se à habilidade de diferentes classes responderem de maneiras variadas à mesma mensagem (ou método).
+O polimorfismo permite que o mesmo método seja implementado de maneiras diferentes em 
+classes distintas, promovendo flexibilidade e reutilização de código.
 
 6 O que é encapsulamento ?
+refere-se à prática de esconder os detalhes internos de um objeto, expondo
+apenas o que é necessário para seu uso. Essa técnica
+visa proteger os dados do objeto, garantindo que eles só possam ser acessados 
+ou modificados por meio de métodos específicos, chamados de métodos acessores
+(getters) e modificadores (setters).
 
 7 o que é um metodo ?
+um método é uma função definida dentro de uma classe que descreve 
+o comportamento ou as ações que os objetos dessa classe podem realizar.
 
 8 o que são os atributos de uma classe ?
+são as características ou propriedades que definem o estado de um objeto.
 
 9 o que metodos publico ?
+são métodos de uma classe que podem ser acessados de qualquer lugar 
+do código, ou seja, de fora da classe em que foram definidos. 
+Esses métodos permitem que outros objetos ou partes do programa 
+interajam com a classe, realizando operações ou obtendo informações 
+sobre o estado do objeto.
 
 10 o que são atributos publicos ?
+são variáveis de uma classe que podem ser acessadas diretamente de qualquer 
+lugar do código. Esses atributos são marcados com o modificador de acesso 
+public, o que significa que qualquer objeto ou classe externa pode ler ou 
+modificar o valor desse atributo sem restrições.
 
 11 o que são as interfaces?
+são contratos que definem um conjunto de métodos que uma classe deve implementar, 
+sem especificar como esses métodos devem ser realizados. 
+Uma interface estabelece o que uma classe deve fazer, 
+mas não como fazer. Dessa forma, ela define um comportamento 
+que várias classes podem seguir, promovendo a reutilização de 
+código e a flexibilidade do design.
 
 12 quando devemos utilizar interfaces ?
+quando se deseja estabelecer um contrato que várias classes diferentes podem seguir, 
+garantindo que todas implementem um conjunto de comportamentos comuns, 
+mas permitindo que cada uma tenha sua própria implementação desses comportamentos. 
+Elas são particularmente úteis para promover o polimorfismo, a desacoplamento e a flexibilidade 
+no design de sistemas.
